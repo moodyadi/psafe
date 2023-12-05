@@ -1,3 +1,5 @@
+/* Existing CSS... */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* New Styles... */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.entry-list {
+  list-style: none;
+  padding: 0;
+}
+
+.entry-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.copy-button,
+.update-button,
+.cancel-button,
+.show-hide-button,
+.expiration-button,
+.add-entry-button,
+.save-entry-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.update-password-box {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.update-password-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.add-entry-section {
+  margin-top: 20px;
+}
+
+.show-hide-button {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+}
+
+.cancel-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+}
+
+.expiration-button {
+  margin-left: auto;
+  color: #333;
+  font-weight: bold;
+}
+
+.add-entry-fields {
+  margin-top: 10px;
+}
+
+.save-entry-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
 }
